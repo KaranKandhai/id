@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles/style.css" />
+    </head>
+    <body>
+        <div id="flexContainer">
+            <div id="links"></div>
+            <div id="midden">
+                <div id="bgImage">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item">
+                        <img src="./images/hints/lamp.png" id="hintLamp"  onclick="toonHint('dit is een lamp')"></img>
+                    </div>
+                    <div class="item"></div>
+                    <div class="item">
+                        <div class="container">
+                            <h1 id="count">60</h1>
+                        </div>
+                    </div>
+
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+
+                    <div class="item">
+                        <img src="./images/hints/bed.png" id="hintBed" onclick="toonHint('dit is een bed')"></img>
+                    </div>
+                    <div class="item">
+                        <img src="./images/hints/chair.png" id="hintChair" onclick="toonHint('dit is een chair')"></img>
+                    </div>
+                    <div class="item">
+                        
+                        <div> <img src="./images/hints/rugKnip.png" id="hintRug"  onclick="toonHint('dit is een rug')"></img>
+                            <div><img src="./images/hints/desk.png" id="hintDesk"  onclick="toonHint('dit is een desk')"></img></div>
+                        </div>
+                       
+                    </div>
+                    <div class="item">
+                        <img src="./images/hints/closet.png" id="hintCloset" onclick="specialHint()"></img>
+                    </div>
+                    <div class="item"></div>
+
+                </div>   
+            </div>
+            <div id="rechts"></div>
+        </div>
+        <script  src="./scripts/hint.js"></script>
+            
+    </body>
+</html>
